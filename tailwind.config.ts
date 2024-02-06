@@ -10,10 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         PrimaryText: "#3d3d3d",
+        DescriptiveText: "#525252",
         PrincipalBlue: "#3171DE",
         PrincipalGreen: "#66B066",
         secondaryBg: "#F7F7FD",
         secondaryText: "#F3BC4C"
+
+      },
+      backgroundImage: {
+        principalBlueGradient: "linear-gradient(180deg, #3171DE 0%, #704AF2 100%)"
 
       }
     },
