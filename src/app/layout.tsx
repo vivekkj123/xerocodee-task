@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { DM_Sans, Epilogue, Inter, Roboto_Flex } from "next/font/google";
+import { DM_Sans, Epilogue, Inter } from "next/font/google";
 import "./globals.css";
 
 const epilogue = Epilogue({ subsets: ["latin"] });
 const DMSans = DM_Sans({ subsets: ["latin"] });
-const RobotoFlex = Roboto_Flex({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "TechSynergy",

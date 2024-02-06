@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        PrimaryText: "3d3d3d",
+        PrimaryText: "#3d3d3d",
         PrincipalBlue: "#3171DE",
-        secondaryBg: "#F7F7FD"
+        PrincipalGreen: "#66B066",
+        secondaryBg: "#F7F7FD",
+        secondaryText: "#F3BC4C"
+
       }
     },
   },
