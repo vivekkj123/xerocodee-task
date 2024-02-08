@@ -34,7 +34,7 @@ const Teams = () => {
         </span>
       </h2>
 
-      <div className="grid md:grid-cols-3 mt-10 px-6 md:px-20 py-10 shadow-2xl md:mx-20 mx-4 rounded-3xl gap-6">
+      <div className="grid md:grid-cols-3 mt-10 px-6 md:px-20 py-10 shadow-xl md:mx-20 mx-4 rounded-3xl gap-6">
         {Teams.map((Team) => (
           <div key={Team.Title} className="flex flex-col gap-5 px-6">
             <Image alt={Team.Title} src={Team.Icon} />
