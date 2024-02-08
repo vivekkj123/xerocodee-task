@@ -17,15 +17,31 @@ const Organizations = () => {
         Our 4,000+ team has expertise in almost everyprogramming language.
       </p>
       <div className="flex justify-center md:flex-nowrap flex-wrap  mt-10 gap-16 md:gap-28 md:mx-[-15rem]">
-        <Image className="h-6 md:h-10 w-auto" src={SamsungLogo} />
-        <Image className="h-6 md:h-10 w-auto" src={MicrosoftLogo} />
-        <Image className="h-6 md:h-10 w-auto" src={GoogleLogo} />
-        <Image className="h-6 md:h-10 w-auto" src={SlackLogo} />
-        <Image className="h-6 md:h-10 w-auto" src={LGLogo} />
-        <Image className="h-6 md:h-10 w-auto" src={SonyLogo} />
+        <Image
+          className="h-6 md:h-10 w-auto"
+          alt="Samsung Logo"
+          src={SamsungLogo}
+        />
+        <Image
+          className="h-6 md:h-10 w-auto"
+          alt="Microsoft Logo"
+          src={MicrosoftLogo}
+        />
+        <Image
+          className="h-6 md:h-10 w-auto"
+          alt="Google Logo"
+          src={GoogleLogo}
+        />
+        <Image
+          className="h-6 md:h-10 w-auto"
+          alt="Slack Logo"
+          src={SlackLogo}
+        />
+        <Image className="h-6 md:h-10 w-auto" alt="LG Logo" src={LGLogo} />
+        <Image className="h-6 md:h-10 w-auto" alt="Sony Logo" src={SonyLogo} />
       </div>
       <div className="bg-PrincipalBlue w-64 text-center rounded-3xl py-2  text-white mx-auto">
-      Our full repertorie
+        Our full repertorie
       </div>
     </div>
   );
