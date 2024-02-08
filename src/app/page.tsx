@@ -5,6 +5,7 @@ import React from "react";
 import Services from "@/components/Services";
 import Organizations from "@/components/Organizations";
 import Testimonials from "@/components/Testimonials";
+import ChooseUs from "@/components/ChooseUs";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <Organizations />
       <Testimonials />
+      <ChooseUs />
     </div>
   );
 };

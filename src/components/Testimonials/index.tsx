@@ -98,7 +98,7 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-      <div className="flex gap-8 justify-center relative md:top-[-10rem]">
+      <div className="flex gap-8 justify-center relative md:top-[-5rem]">
         <div className="bg-secondaryBg flex justify-center items-center h-14 w-14 rounded-full">
           <Image alt="Arrow Left Icon" src={ArrowLeft} />
         </div>
