@@ -6,6 +6,8 @@ import Services from "@/components/Services";
 import Organizations from "@/components/Organizations";
 import Testimonials from "@/components/Testimonials";
 import ChooseUs from "@/components/ChooseUs";
+import Crew from "@/components/Crew";
+import ScheduleACall from "@/components/ScheduleACall";
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
       <Organizations />
       <Testimonials />
       <ChooseUs />
+      <Crew />
+      <ScheduleACall />
     </div>
   );
 };
