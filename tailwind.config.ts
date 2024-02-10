@@ -14,7 +14,8 @@ const config: Config = {
         PrincipalBlue: "#3171DE",
         PrincipalGreen: "#66B066",
         secondaryBg: "#F7F7FD",
-        secondaryText: "#F3BC4C"
+        secondaryText: "#F3BC4C",
+        FooterText: "#0A142F"
 
       },
       backgroundImage: {

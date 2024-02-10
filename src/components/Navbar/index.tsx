@@ -2,6 +2,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import logo from "@/app/_assets/logo.png";
+import CaretDown from "@/app/_assets/CaretDown.svg";
+
 const Navbar = () => {
   const [NavHidden, setNavHidden] = useState(true);
   return (
@@ -64,7 +66,9 @@ const Navbar = () => {
           NavHidden ? "hidden" : "flex"
         }`}
       >
-        <p>EN ⇩</p>
+        <p className="flex items-center gap-2">
+          EN <Image alt="Caret Down" src={CaretDown} />
+        </p>
         <div className="bg-PrincipalBlue text-white px-8 py-3 rounded-full">
           Schedule a Call
         </div>

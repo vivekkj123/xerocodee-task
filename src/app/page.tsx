@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import ChooseUs from "@/components/ChooseUs";
 import Crew from "@/components/Crew";
 import ScheduleACall from "@/components/ScheduleACall";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
       <ChooseUs />
       <Crew />
       <ScheduleACall />
+      <Footer />
     </div>
   );
 };
